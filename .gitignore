@@ -1,0 +1,9 @@
+node_modules/
+*.DS_Store
+*.package-lock.json
+package-lock.json
+npm-debug.log
+jsdoc/documentation/
+.env
+.puppeteer_data
+coverage/
