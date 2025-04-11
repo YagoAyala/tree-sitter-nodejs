@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/YagoAyala/foursys-nodejs/issues"
   },
-  "homepage": "https://github.com/YagoAyala/foursys-nodejs#readme"
+  "homepage": "https://github.com/YagoAyala/foursys-nodejs#readme",
+  "dependencies": {
+    "tree-sitter": "^0.21.1",
+    "tree-sitter-javascript": "^0.23.1",
+    "tree-sitter-typescript": "^0.23.2",
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^7.5.0"
+  }
 }
