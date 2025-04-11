@@ -417,4 +417,23 @@ const handleRepositoryAnalyzeLogic = async (repositoryUrl) => {
     return results;
 };
 
-module.exports = { handleRepositoryAnalyzeLogic };
+module.exports = {
+    cloneRepositoryIfMissing,
+    removeRepositoryDirectory,
+    findAllValidFiles,
+    traverseSyntaxTree,
+    containsJsx,
+    extractRequireCalls,
+    parseSingleImportDeclaration,
+    collectImportsFromTree,
+    isFunctionOrArrowFunction,
+    nodeIsExported,
+    getExportedClassName,
+    getExportedFunctionName,
+    getExportedVariableNames,
+    getExportDefaultName,
+    collectLocalExportedComponents,
+    collectImportedComponents,
+    analyzeFileForReactComponents,
+    handleRepositoryAnalyzeLogic
+};

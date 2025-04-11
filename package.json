@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/YagoAyala/foursys-nodejs#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
     "tree-sitter": "^0.21.1",
     "tree-sitter-javascript": "^0.23.1",
-    "tree-sitter-typescript": "^0.23.2",
-    "express": "^4.21.2",
-    "cors": "^2.8.5",
-    "express-rate-limit": "^7.5.0"
+    "tree-sitter-typescript": "^0.23.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
